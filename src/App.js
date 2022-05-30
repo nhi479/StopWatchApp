@@ -1,10 +1,11 @@
 import './App.css';
+import StopWatch from './StopWatch';
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>REACT APP</h1>
+        <StopWatch/>
       </header>
     </div>
   );
